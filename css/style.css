@@ -1,0 +1,53 @@
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.site-header {
+	background-color: #4ECDC4;
+	border-bottom: 5px solid #45B7AF;
+}
+
+.site-header h1 {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.site-header span {
+	display: inline-block;
+	margin-bottom: 0.67em;
+	padding: 5px;
+	background-color: #45B7AF;
+	color: #fff;
+	font-size: 86%;
+	font-style: italic;
+}
+
+.site-header .pure-menu-horizontal {
+	margin-top: 1.67em;
+	background-color: transparent;
+	text-align: right;
+}
+
+.site-header .pure-menu a {
+	font-weight: bold;
+	color: #556270;
+}
+
+.site-header .pure-menu li a:hover,
+.site-header .pure-menu li a:focus {
+	background-color: transparent;
+}
+
+.site-header .pure-menu .pure-menu-selected a {
+	color: #fff;
+}
+
+.site-content {
+	font-family: 'Inconsolata', sans-serif;
+}
+
+.site-footer {
+	text-align: center;
+	font-size: 86%;
+}
